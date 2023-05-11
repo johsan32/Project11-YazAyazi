@@ -1,0 +1,106 @@
+header {
+  background: #ad5389; /* fallback for old browsers */
+  background: linear-gradient(to left, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header .navbar-brand .book-img {
+  width: 60px;
+  height: 50px;
+  color: #fff;
+}
+header .collapse {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .collapse .nav-item {
+  margin-right: 10px;
+  transition: all ease 0.4s;
+}
+header .collapse .nav-item:hover {
+  transform: rotate(-5deg);
+  color: black;
+}
+
+#banner {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+#banner .banner-img {
+  transform: rotate(-15deg);
+  transition: all ease 0.4s;
+}
+#banner .banner-img:hover {
+  transform: rotate(0);
+  box-shadow: 15px 5px 35px rgb(176, 175, 175);
+  transform: scaleX(1.1);
+}
+#banner .banner-top {
+  transition: ease 0.4s;
+}
+#banner .banner-top:hover {
+  box-shadow: 2px 5px 35px rgb(176, 175, 175);
+  transform: scale(1.1);
+}
+
+#about .img-about {
+  transition: ease 0.4s;
+}
+#about .img-about:hover {
+  box-shadow: 2px 5px 35px rgb(74, 73, 73);
+  transform: scale(1.1);
+}
+
+#yorumlar {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+#yorumlar .bottom-img {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+
+#yazar .btn-outline-secondary:hover {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  transform: scaleX(1.1);
+}
+#yazar .card:hover {
+  background-color: azure;
+  border: 3px solid #5f1782;
+  border-radius: 15px;
+  box-shadow: 2px 5px 15px rgb(176, 175, 175);
+}
+#yazar .card img:hover {
+  transform: scaleX(1.1);
+  border-radius: 20px;
+}
+
+#sidebar .offcanvas-body {
+  background-color: rgb(251, 251, 247);
+}
+#sidebar .offcanvas-body .col {
+  gap: 20px;
+  padding: 5px 10px;
+  margin: 10px 5px;
+}
+#sidebar .img-side {
+  width: 50%;
+  object-fit: cover;
+}
+#sidebar .img-side:hover {
+  transform: scaleX(1.2);
+}
+#sidebar .dropdown-menu .dropdown-item:hover {
+  border: 1px solid gray;
+  color: #a517ba;
+}
+
+#socialmedia .social-icons a {
+  width: 150px;
+}
+#socialmedia .social-icons a:hover {
+  transform: translateY(-10px);
+}
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
