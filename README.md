@@ -10,7 +10,7 @@
 
 #### link: https://github-johsan32.netlify.app/
 
-![print-screen](secreen.png)
+![print-secreen](secreen.png)
 
 
 ![gif](video.gif)
